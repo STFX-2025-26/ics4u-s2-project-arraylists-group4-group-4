@@ -9,7 +9,7 @@ public class ArrayListsMethods {
 	 * RETURN TYPE - String
 	 */
 	public static String listMethod(ArrayList x) {
-		
+		//test push^2
 		return "s";
 	}
 }

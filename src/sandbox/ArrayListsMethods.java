@@ -9,6 +9,7 @@ public class ArrayListsMethods {
 	 * RETURN TYPE - String
 	 */
 	public static String listMethod(ArrayList x) {
+		
 		return "s";
 	}
 }

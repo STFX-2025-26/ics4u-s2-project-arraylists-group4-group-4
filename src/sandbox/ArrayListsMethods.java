@@ -12,4 +12,18 @@ public class ArrayListsMethods {
 		//test push^2
 		return "s";
 	}
+	
+	/*
+	 * DESCRIPTION - add names to array
+	 * PARAMETERS - ArrayList<String> x, String y
+	 * RETURN TYPE - void
+	 */
+	public static void addMethod (ArrayList<String> x, String y) {
+		
+		
+		
+	}
+	
+	
+	
 }

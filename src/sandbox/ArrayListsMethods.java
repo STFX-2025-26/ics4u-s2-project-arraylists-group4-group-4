@@ -5,12 +5,20 @@ public class ArrayListsMethods {
 
 	/*
 	 * DESCRIPTION - List all the names
-	 * PARAMETERS - ArrayList
+	 * PARAMETERS - ArrayList<String>
 	 * RETURN TYPE - String
 	 */
-	public static String listMethod(ArrayList x) {
-		//test push^2
-		return "s";
+	public static String listMethod(ArrayList<String> x) {
+		
+		String y = "";
+		
+		for(int i=0; i<x.size();i++) {
+			
+			y = y + "\n" + x.get(i);
+			
+		}
+		
+		return y;
 	}
 	
 	/*

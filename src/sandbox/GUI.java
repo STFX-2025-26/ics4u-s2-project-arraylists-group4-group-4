@@ -79,8 +79,8 @@ public class GUI {
 		addButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				
-				//addMethod(names, nameInput);
+				nameInput = inputText.getText();
+				//ArrayListsMethods.addMethod(names, nameInput);
 				
 			}
 		});
@@ -91,7 +91,7 @@ public class GUI {
 		removeButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				//removeMethod(names);
+				//ArrayListsMethods.removeMethod(names);
 				
 			}
 		});
@@ -102,7 +102,7 @@ public class GUI {
 		sortButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				//sortMethod(names);
+				//ArrayListsMethods.sortMethod(names);
 				
 			}
 		});
@@ -117,8 +117,8 @@ public class GUI {
 				//listText.setText(ArrayListsMethods.listMethod());
 				// put the ArrayList variable into the parameters
 				
-				//nameList = listMethod(names);
-				
+				//nameList = ArrayListsMethods.listMethod(names);
+				outputArea.setText(nameList);
 			}
 		});
 		listButton.setBounds(310, 188, 60, 23);

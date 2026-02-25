@@ -28,7 +28,7 @@ public class ArrayListsMethods {
 	 */
 	public static void addMethod (ArrayList<String> x, String y) {
 		
-		
+		x.add(y);
 		
 	}
 	

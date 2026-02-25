@@ -1,5 +1,6 @@
 package sandbox;
-import java.util.ArrayList;	
+import java.util.ArrayList;
+import java.util.Collections;	
 
 public class ArrayListsMethods {
 
@@ -32,6 +33,16 @@ public class ArrayListsMethods {
 		
 	}
 	
+	
+	/* DESCRIPTION - sorts ArrayList alphabetically; ascending
+	 * PARAMETERS - ArrayList<String> a
+	 * RETURN TYPE - void
+	 */
+	public static void sortMethod (ArrayList<String> a) {
+		
+		Collections.sort(a, String.CASE_INSENSITIVE_ORDER);
+		
+	}
 	
 	
 }

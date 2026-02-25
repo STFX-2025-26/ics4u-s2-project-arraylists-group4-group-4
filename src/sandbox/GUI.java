@@ -80,7 +80,7 @@ public class GUI {
 			public void actionPerformed(ActionEvent e) {
 				
 				
-				//addMethod(names, nameInput);
+				//ArrayListsMethods.addMethod(names, nameInput);
 				
 			}
 		});
@@ -91,7 +91,7 @@ public class GUI {
 		removeButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				//removeMethod(names);
+				//ArrayListsMethods.removeMethod(names);
 				
 			}
 		});
@@ -102,7 +102,7 @@ public class GUI {
 		sortButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				//sortMethod(names);
+				ArrayListsMethods.sortMethod(names);
 				
 			}
 		});

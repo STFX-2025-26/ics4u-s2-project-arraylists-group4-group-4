@@ -80,7 +80,7 @@ public class GUI {
 			public void actionPerformed(ActionEvent e) {
 				
 				
-				//addMethod(names, nameList);
+				//addMethod(names, nameInput);
 				
 			}
 		});

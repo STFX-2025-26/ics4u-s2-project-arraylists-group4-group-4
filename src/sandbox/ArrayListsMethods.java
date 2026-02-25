@@ -45,4 +45,15 @@ public class ArrayListsMethods {
 	}
 	
 	
+	/* DESCRIPTION - Removes name from ArrayList
+	 * PARAMETERS - ArrayList<String> a, String b
+	 * RETURN TYPE - void
+	 */
+	public static void removeMethod (ArrayList<String>a, String b ) {
+		ArrayList<String> nameList = new ArrayList();
+		 
+		nameList.remove(b);
+			
+	}
+	
 }

@@ -9,10 +9,13 @@ import javax.swing.JTextField;
 import javax.swing.JTextArea;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.awt.event.ActionEvent;
 
 public class GUI {
 
+	// Variables
+	JTextArea listText;
 	private JFrame frame;
 	private JTextField inputText;
 
@@ -70,8 +73,6 @@ public class GUI {
 		addButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				
-				
 			}
 		});
 		addButton.setBounds(310, 88, 60, 23);
@@ -98,12 +99,13 @@ public class GUI {
 		});
 		sortButton.setBounds(310, 154, 60, 23);
 		frame.getContentPane().add(sortButton);
-		
+				
 		JButton listButton = new JButton("List");
 		listButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
-				
+			
+				//listText.setText(ArrayListsMethods.listMethod());
+				// put the ArrayList variable into the parameters
 				
 			}
 		});

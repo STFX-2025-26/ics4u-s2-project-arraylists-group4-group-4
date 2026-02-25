@@ -80,6 +80,7 @@ public class GUI {
 			public void actionPerformed(ActionEvent e) {
 				
 				nameInput = inputText.getText();
+
 				//ArrayListsMethods.addMethod(names, nameInput);
 				
 			}
@@ -101,8 +102,8 @@ public class GUI {
 		JButton sortButton = new JButton("Sort");
 		sortButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
-				//ArrayListsMethods.sortMethod(names);
+
+				ArrayListsMethods.sortMethod(names);
 				
 			}
 		});

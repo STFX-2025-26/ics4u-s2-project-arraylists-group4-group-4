@@ -10,12 +10,18 @@ import javax.swing.JTextArea;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.util.ArrayList;
 
 public class GUI {
 
 	private JFrame frame;
 	private JTextField inputText;
 
+	// variables 
+	ArrayList<String> names = new ArrayList();
+	String nameInput = "";
+	String nameList = "";
+	
 	/**
 	 * Launch the application.
 	 */
@@ -70,7 +76,7 @@ public class GUI {
 		addButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				
+				//addMethod(names, nameList);
 				
 			}
 		});
@@ -81,7 +87,7 @@ public class GUI {
 		removeButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				
+				//removeMethod(names);
 				
 			}
 		});
@@ -92,7 +98,7 @@ public class GUI {
 		sortButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				
+				//sortMethod(names);
 				
 			}
 		});
@@ -103,7 +109,7 @@ public class GUI {
 		listButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				
+				//nameList = listMethod(names);
 				
 			}
 		});

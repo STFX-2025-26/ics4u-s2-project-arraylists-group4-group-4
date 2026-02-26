@@ -81,7 +81,7 @@ public class GUI {
 				
 				nameInput = inputText.getText();
 
-				//ArrayListsMethods.addMethod(names, nameInput);
+				ArrayListsMethods.addMethod(names, nameInput);
 				
 			}
 		});

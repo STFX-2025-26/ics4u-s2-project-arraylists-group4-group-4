@@ -1,6 +1,8 @@
 package sandbox;
 import java.util.ArrayList;
-import java.util.Collections;	
+import java.util.Collections;
+
+import javax.swing.JOptionPane;	
 
 public class ArrayListsMethods {
 
@@ -29,8 +31,17 @@ public class ArrayListsMethods {
 	 */
 	public static void addMethod (ArrayList<String> x, String y) {
 		
-		x.add(y);
+		try {
+			
+			x.add(y);
+			
+		}
 		
+		catch (Exception e) {
+			
+			JOptionPane.showMessageDialog(null, "Error when entering name!");
+			
+		}
 	}
 	
 	

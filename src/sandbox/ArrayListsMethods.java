@@ -61,9 +61,9 @@ public class ArrayListsMethods {
 	 * RETURN TYPE - void
 	 */
 	public static void removeMethod (ArrayList<String>a, String b ) {
-		ArrayList<String> nameList = new ArrayList();
+		
 		 
-		nameList.remove(b);
+		a.remove(b);
 			
 	}
 	

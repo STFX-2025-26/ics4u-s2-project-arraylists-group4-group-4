@@ -92,7 +92,9 @@ public class GUI {
 		removeButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				//ArrayListsMethods.removeMethod(names);
+				nameInput = inputText.getText();
+				
+				ArrayListsMethods.removeMethod(names, nameInput);
 				
 			}
 		});
@@ -114,12 +116,10 @@ public class GUI {
 		listButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-
-				//listText.setText(ArrayListsMethods.listMethod());
-				// put the ArrayList variable into the parameters
+				nameList = ArrayListsMethods.listMethod(names);
 				
-				//nameList = ArrayListsMethods.listMethod(names);
 				outputArea.setText(nameList);
+				
 			}
 		});
 		listButton.setBounds(310, 188, 60, 23);
